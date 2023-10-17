@@ -7,6 +7,13 @@
 /* Header */
 header{
     margin: 10px 20px;
+    height: 60px;
+    background-size: 30%;
+}
+
+main{
+    background-color: lightgrey;
+    padding: 30px;
 }
 
 img{
@@ -17,4 +24,38 @@ h1{
     display: inline-block;
     vertical-align: middle;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main */
+
+/* Section button */
+.container-button{
+    width: 50%;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 25%;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+button{
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+#button-blue{
+    background-color: rgb(13, 114, 255);
+    color: white;
+}
+
+#button-white{
+    color: lightgrey;
+}
+
+.container-list{
+    width: 50%;
+    background-color: grey;
+    margin: 1px 25%;
 }
