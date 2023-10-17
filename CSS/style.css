@@ -11,10 +11,6 @@ header{
     background-size: 30%;
 }
 
-main{
-    background-color: lightgrey;
-    padding: 30px;
-}
 
 img{
     vertical-align: middle;
@@ -27,6 +23,11 @@ h1{
 }
 
 /* Main */
+main{
+    background-color: lightgrey;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* Section button */
 .container-button{
@@ -48,14 +49,96 @@ button{
 #button-blue{
     background-color: rgb(13, 114, 255);
     color: white;
+    border: 1px solid rgb(13, 114, 255);
 }
 
 #button-white{
     color: lightgrey;
+    border: 1px solid lightgray;
+    background-color: white;
 }
 
+/* Section list */
 .container-list{
     width: 50%;
-    background-color: grey;
+    background-color: white;
     margin: 1px 25%;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
+
+li{
+    font-size: 20px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.text{
+    font-size: 15px;
+    padding: 5px;
+    margin-top: auto;
+    margin-left: 10px;
+    line-height: 25px;
+}
+
+.editorial{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(13, 114, 255);
+    color: white;
+    padding: 5px;
+    font-size: 8px;
+    border-radius: 10px;
+}
+
+.goals{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(108, 29, 245);
+    color: white;
+    padding: 5px;
+    font-size: 8px;
+    border-radius: 10px;    
+}
+
+.recruiting{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(7, 179, 144);
+    color: white;
+    padding: 5px;
+    font-size: 8px;
+    border-radius: 10px;
+}
+
+.mobile{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 174, 13);
+    color: white;
+    padding: 5px;
+    font-size: 8px;
+    border-radius: 10px;
+}
+
+.web{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 13, 215);
+    color: white;
+    padding: 5px;
+    font-size: 8px;
+    border-radius: 10px;
+}
+
+.sales{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(146, 213, 11);
+    color: white;
+    padding: 5px;
+    font-size: 8px;
+    border-radius: 10px;
+}
+
