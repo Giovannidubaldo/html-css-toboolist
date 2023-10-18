@@ -11,7 +11,6 @@ header{
     background-size: 30%;
 }
 
-
 img{
     vertical-align: middle;
 }
@@ -24,8 +23,8 @@ h1{
 
 /* Main */
 main{
-    background-color: lightgrey;
-    padding: 30px;
+    background-color: rgb(232, 231, 231);
+    padding: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -33,7 +32,6 @@ main{
 .container-button{
     width: 50%;
     padding: 10px;
-    margin-top: 50px;
     margin-left: 25%;
     background-color: white;
     border-top-left-radius: 5px;
@@ -82,63 +80,49 @@ li{
     line-height: 25px;
 }
 
-.editorial{
+.short{
     width: 10px;
     height: 10px;
-    background-color: rgb(13, 114, 255);
     color: white;
     padding: 5px;
     font-size: 8px;
     border-radius: 10px;
+}
+
+.editorial{
+    background-color: rgb(13, 114, 255);
 }
 
 .goals{
-    width: 10px;
-    height: 10px;
-    background-color: rgb(108, 29, 245);
-    color: white;
-    padding: 5px;
-    font-size: 8px;
-    border-radius: 10px;    
+    background-color: rgb(108, 29, 245); 
 }
 
 .recruiting{
-    width: 10px;
-    height: 10px;
     background-color: rgb(7, 179, 144);
-    color: white;
-    padding: 5px;
-    font-size: 8px;
-    border-radius: 10px;
 }
 
 .mobile{
-    width: 10px;
-    height: 10px;
     background-color: rgb(255, 174, 13);
-    color: white;
-    padding: 5px;
-    font-size: 8px;
-    border-radius: 10px;
 }
 
 .web{
-    width: 10px;
-    height: 10px;
     background-color: rgb(255, 13, 215);
-    color: white;
-    padding: 5px;
-    font-size: 8px;
-    border-radius: 10px;
 }
 
 .sales{
-    width: 10px;
-    height: 10px;
     background-color: rgb(146, 213, 11);
-    color: white;
-    padding: 5px;
-    font-size: 8px;
-    border-radius: 10px;
 }
 
+.check{
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.cross{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px;
+}
